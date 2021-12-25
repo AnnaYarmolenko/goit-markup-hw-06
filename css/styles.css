@@ -800,7 +800,7 @@ footer {
 }
 .policy-checkbox:checked + .policy-box::before{
   background-color: var(--accent-color);
-  background-image: url(/img/icon-check.svg);
+  background-image: url(../img/icon-check.svg);
   background-position: center;
 }
 .policy-checkbox:focus + .policy-box::before{
