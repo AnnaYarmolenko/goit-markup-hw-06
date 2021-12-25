@@ -57,11 +57,44 @@
                         <use href="img/icons.svg#icon-Vector"></use>
                     </svg>
                     </button>
+                    <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
+                    <form class="modal-form">
+                        <label class="form-input-box">
+                            Имя
+                            <input type="text" name="name" class="form-input" required/>
+                            <svg class="form-input-icon">
+                                <use href="img/icons.svg#icon-person-black-18dp"></use>
+                            </svg>
+                        </label>
+                        <label class="form-input-box">
+                            Телефон
+                            <input type="tel" name="tel"  class="form-input" pattern="[0-9]{10}" required/>
+                            <svg class="form-input-icon">
+                                <use href="img/icons.svg#icon-phone-black-18dp"></use>
+                            </svg>
+                        </label>
+                        <label class="form-input-box">
+                            Почта
+                            <input type="email" name="email" class="form-input" required/>
+                            <svg class="form-input-icon">
+                                <use href="img/icons.svg#icon-email-black-18dp"></use>
+                            </svg>
+                        </label>
+                        <label class="form-input-box">
+                            Комментарий
+                            <textarea name="comment" id="" class="form-comment" placeholder="Введите текст"></textarea>
+                        </label>
+                        <input type="checkbox" class="policy-checkbox" id="policy-check">
+                        <label class="policy-box" for="policy-check">
+                            Соглашаюсь с рассылкой и принимаю &nbsp; <a href="">Условия договора</a>
+                        </label>
+                        <button type="submit" class="form-submit-btn">Отправить</button>
+                        
+                    </form>
                 </div>
 
             </div>
         </section>
-        
         
         <!--Наши преимущества-->     
         <section class="section adv">
@@ -384,6 +417,18 @@
                 </li>
             </ul>
             </div>
+            <form class="form-email">
+              <h3 class="footer-social-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                                <div class="submit-button">
+                                    <label for="E-mail"class="lb"></label>
+                                    <input type="email" class="email-label" name="E-mail" placeholder="E-mail" />
+                                    <button type="submit" class="button-footer">Подписаться
+                                        <svg class="icon-send" width="24" haight="24">
+                                            <use href="img/icons.svg#icon-send"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+            </form>
         </div>
     </footer>
 <script src="./js/modal.js"></script>
