@@ -678,7 +678,8 @@ footer {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   text-indent: 16px;
   margin-right: 12px;
-  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--bg-color);
 }
 .email-label:focus{
   outline: 1px solid var(--accent-color);
