@@ -15,7 +15,7 @@
   --navbar-border: #ececec;
   --border-color: #eeeeee;
   --svg-color: #afb1b8;
-  --project-description-color: rgba(33, 150, 243, 0.9)
+  --project-description-color: rgba(33, 150, 243, 0.9);
 }
 
 a {
@@ -67,7 +67,7 @@ img {
 .link.current {
   color: var(--accent-color);
 }
-.icon{
+.icon {
   fill: var(--text-secondary);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,7 +91,7 @@ img {
   color: var(--accent-color);
   cursor: pointer;
 }
-.contactshed{
+.contactshed {
   display: flex;
   align-items: center;
 }
@@ -321,7 +321,7 @@ body {
   fill: var(--svg-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-social-link:first-child{
+.team-social-link:first-child {
   margin-left: 0px;
 }
 .team-social-link {
@@ -330,18 +330,18 @@ body {
   justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 .icon-team:hover,
-.icon-team:focus{
+.icon-team:focus {
   background-color: var(--accent-color);
 }
-svg{
+svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-team:hover svg,
-.icon-team:focus svg{
- fill: var(--bg-color);
+.icon-team:focus svg {
+  fill: var(--bg-color);
 }
 .clients {
   font-weight: bold;
@@ -350,7 +350,7 @@ svg{
   text-align: center;
   margin-bottom: 50px;
 }
-.clients-icon{
+.clients-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -360,15 +360,15 @@ svg{
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-client{
-   fill: var(--svg-color);
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.link-client {
+  fill: var(--svg-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-icon:hover{
- border: 1px solid var(--accent-color);
+.clients-icon:hover {
+  border: 1px solid var(--accent-color);
 }
 .clients-icon:hover .link-client,
-.clients-icon:focus .link-client{
+.clients-icon:focus .link-client {
   fill: var(--accent-color);
   cursor: pointer;
 }
@@ -380,14 +380,13 @@ svg{
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  drop shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .contacts-social-link svg {
   width: 20px;
   height: 20px;
   fill: var(--bg-color);
 }
-
 
 /* ----------Portfolio---------- */
 .projects-title {
@@ -428,8 +427,8 @@ svg{
   justify-content: center;
 }
 button {
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-buttons {
   margin-right: 8px;
@@ -465,10 +464,10 @@ button {
   margin-bottom: 0;
 }
 .our-projects-title li:hover,
-.our-projects-title li:focus{
+.our-projects-title li:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
 }
-.our-projects-title>li{
+.our-projects-title > li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-contents h2 {
@@ -507,7 +506,6 @@ footer {
   line-height: 1.7;
   color: var(--text-secondary-light);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .footer-section {
   padding-top: 60px;
@@ -521,39 +519,38 @@ footer {
   margin-bottom: 9px;
 }
 .contactsfoot:hover,
-.contactsfoot:focus{
+.contactsfoot:focus {
   color: var(--bg-color);
 }
 .li-contacts:last-child {
   margin-bottom: 0px;
 }
-.footer{
+.footer {
   display: flex;
   align-items: baseline;
 }
-.icon-team:last-child{
- margin-right: 0px;
+.icon-team:last-child {
+  margin-right: 0px;
 }
-.footer-social{
+.footer-social {
   margin-left: 70px;
 }
-.footer-social-title{
+.footer-social-title {
   margin-bottom: 20px;
-  color:var(--bg-color);
+  color: var(--bg-color);
 }
 .contacts-social-link:hover,
-.contacts-social-link:focus{
+.contacts-social-link:focus {
   background-color: var(--accent-color);
 }
 
-
-.li-title-second{
+.li-title-second {
   position: relative;
 }
 
-.directions{
+.directions {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -561,18 +558,18 @@ footer {
   margin-right: 0px;
   height: 70px;
   color: var(--bg-color);
-  background-color:rgba(47, 48, 58, 80%);
+  background-color: rgba(47, 48, 58, 80%);
   align-items: center;
 }
-.icon-close{
+.icon-close {
   fill: var(--svg-color);
 }
 
 /* -----Нижнее активное подчеркивание----- */
-.item{
+.item {
   position: relative;
 }
-.current::after{
+.current::after {
   content: '';
   display: block;
   width: 100%;
@@ -584,7 +581,7 @@ footer {
 }
 
 /* -----Модальное окно----- */
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -595,14 +592,14 @@ footer {
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
 }
-.modal{
+.modal {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -615,7 +612,7 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
 }
-.modal-button{
+.modal-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -627,21 +624,21 @@ footer {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--bg-color);
 }
-.icon-close{
+.icon-close {
   width: 11px;
   height: 11px;
   fill: var(--logo-color);
 }
 .icon-close:hover,
-.icon-close:focus{
+.icon-close:focus {
   fill: var(--accent-color);
   cursor: pointer;
 }
-.project-overlay{
+.project-overlay {
   position: relative;
   overflow: hidden;
 }
-.project-description{
+.project-description {
   position: absolute;
   top: 0;
   left: 0;
@@ -652,7 +649,7 @@ footer {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
 }
-.project-description p{
+.project-description p {
   display: inline-block;
   padding: 63px 24px;
   font-size: 18px;
@@ -662,14 +659,15 @@ footer {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .project-link:hover .project-description,
-.project-link:focus .project-description{
-  transform: translateY(0);}
+.project-link:focus .project-description {
+  transform: translateY(0);
+}
 
-  /* -----Форма в футере----- */
-.form-email{
+/* -----Форма в футере----- */
+.form-email {
   margin-left: 93px;
 }
-.email-label{
+.email-label {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -681,15 +679,15 @@ footer {
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--bg-color);
 }
-.email-label:focus{
+.email-label:focus {
   outline: 1px solid var(--accent-color);
 }
 
-.submit-button{
+.submit-button {
   display: flex;
   align-items: center;
 }
-.button-footer{
+.button-footer {
   display: flex;
   align-items: center;
   width: 200px;
@@ -702,27 +700,28 @@ footer {
   border: 1px solid var(--accent-color);
   font-size: 16px;
 }
-.icon-send{
+.icon-send {
   fill: var(--bg-color);
   margin-left: 10px;
 }
 
 /* -----Форма в модальном окне----- */
-.modal-text{
+.modal-text {
   font-size: 20px;
   line-height: 1.17;
 }
-.modal-form{
+.modal-form {
   margin-top: 12px;
 }
-.form-input-box{
+.form-input-box {
   display: block;
   margin-bottom: 10px;
   color: var(--text-secondary);
   font-size: 12px;
   position: relative;
 }
-.form-input, .form-comment{
+.form-input,
+.form-comment {
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -731,28 +730,28 @@ footer {
   padding: 0px 10px 0px 42px;
   transition: linear outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus{
+.form-input:focus {
   outline: 1px solid var(--accent-color);
 }
-.form-comment:focus{
+.form-comment:focus {
   outline: 1px solid var(--accent-color);
 }
-.form-input:focus + svg{
+.form-input:focus + svg {
   fill: var(--accent-color);
 }
-.form-comment{
+.form-comment {
   color: var(--text-secondary);
   font-family: inherit;
   resize: none;
   height: 120px;
   padding: 12px 16px;
 }
-.form-comment::placeholder{
+.form-comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 14px;
   line-height: 1.17;
 }
-.form-submit-btn{
+.form-submit-btn {
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
@@ -764,9 +763,9 @@ footer {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 55px; 
+  padding: 10px 55px;
 }
-.form-input-icon{
+.form-input-icon {
   display: block;
   height: 18px;
   width: 18px;
@@ -775,7 +774,7 @@ footer {
   left: 12px;
   transition: linear fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.policy-box{
+.policy-box {
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -783,13 +782,13 @@ footer {
   margin-bottom: 30px;
   color: var(--text-secondary);
 }
-.policy-box a{
+.policy-box a {
   color: var(--accent-color);
   text-decoration: underline;
 }
 
 /* -----Паттерн для скрытия чекбокса----- */
-.policy-checkbox{
+.policy-checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -797,17 +796,17 @@ footer {
   border: 0px;
   padding: 0px;
   clip: rect(0 0 0 0);
-  overflow: hidden; 
+  overflow: hidden;
 }
-.policy-checkbox:checked + .policy-box::before{
+.policy-checkbox:checked + .policy-box::before {
   background-color: var(--accent-color);
   background-image: url(../img/icon-check.svg);
   background-position: center;
 }
-.policy-checkbox:focus + .policy-box::before{
+.policy-checkbox:focus + .policy-box::before {
   border: 1px solid var(--accent-color);
 }
-.policy-box::before{
+.policy-box::before {
   content: '';
   width: 16px;
   height: 15px;
